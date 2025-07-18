@@ -17,7 +17,7 @@ const greeting = {
   subTitle: emoji(
     "AWS Certified Cloud & DevOps Engineer ☁️ with 4+ years of experience in building scalable, secure infrastructures and CI/CD pipelines using Jenkins, Docker, and automation with Python, Terraform & Shell scripting. Skilled in container orchestration with Kubernetes and monitoring with Prometheus & Grafana."
   ),
-  resumeLink: "/Geeta_Khaladkar_Resume.pdf",
+  resumeLink: "https://drive.google.com/uc?export=download&id=1do5K1YbTboyhN-eiroiOREjqGaO8TKP2",
   displayGreeting: true
 };
 
@@ -214,7 +214,8 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Click below to view or download my resume",
   display: true,
-  resumeLink: "/Geeta_Khaladkar_Resume.pdf"
+  resumeLink: "https://drive.google.com/uc?export=download&id=1do5K1YbTboyhN-eiroiOREjqGaO8TKP2"
+
 };
 
 const contactInfo = {
