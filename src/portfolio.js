@@ -17,7 +17,7 @@ const greeting = {
   subTitle: emoji(
     "AWS Certified Cloud & DevOps Engineer ☁️ with 4+ years of experience in building scalable, secure infrastructures and CI/CD pipelines using Jenkins, Docker, and automation with Python, Terraform & Shell scripting. Skilled in container orchestration with Kubernetes and monitoring with Prometheus & Grafana."
   ),
-  resumeLink: "https://drive.google.com/uc?export=download&id=1do5K1YbTboyhN-eiroiOREjqGaO8TKP2",
+  resumeLink: "https://docs.google.com/document/d/1do5K1YbTboyhN-eiroiOREjqGaO8TKP2/edit?usp=drive_link&ouid=111188496208160667087&rtpof=true&sd=true",
   displayGreeting: true
 };
 
@@ -214,7 +214,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Click below to view or download my resume",
   display: true,
-  resumeLink: "https://drive.google.com/uc?export=download&id=1do5K1YbTboyhN-eiroiOREjqGaO8TKP2"
+  resumeLink: "https://docs.google.com/document/d/1do5K1YbTboyhN-eiroiOREjqGaO8TKP2/edit?usp=drive_link&ouid=111188496208160667087&rtpof=true&sd=true"
 
 };
 
