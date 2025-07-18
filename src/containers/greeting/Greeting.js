@@ -32,13 +32,13 @@ export default function Greeting() {
 
               <SocialMedia />
 
-              <div className="button-greeting-div">
+              {/* ✅ Added id="resume" here to link from header */}
+              <div className="button-greeting-div" id="resume">
                 <Button text="Contact me" href="#contact" />
 
                 {greeting.resumeLink && (
                   <a
                     href={greeting.resumeLink}
-                    download
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"

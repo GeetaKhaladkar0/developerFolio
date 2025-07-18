@@ -18,6 +18,7 @@ const greeting = {
     "AWS Certified Cloud & DevOps Engineer ☁️ with 4+ years of experience in building scalable, secure infrastructures and CI/CD pipelines using Jenkins, Docker, and automation with Python, Terraform & Shell scripting. Skilled in container orchestration with Kubernetes and monitoring with Prometheus & Grafana."
   ),
   resumeLink: "https://drive.google.com/uc?export=download&id=1ZTu6YBOkQbdmDKKrGUKTdIYInVxPcE43"
+  
 ,
 
   displayGreeting: true
