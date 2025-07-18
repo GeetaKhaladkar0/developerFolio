@@ -11,6 +11,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
+
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -24,26 +25,31 @@ export default function Greeting() {
               <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
                 {greeting.title} <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
+
               <p className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}>
                 {greeting.subTitle}
               </p>
-              <div id="resume" className="empty-div"></div>
+
               <SocialMedia />
+
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
+
                 {greeting.resumeLink && (
                   <a
                     href={greeting.resumeLink}
+                    download
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
                   >
-                    <Button text="View My Resume" />
+                    <Button text="Download Resume" />
                   </a>
                 )}
               </div>
             </div>
           </div>
+
           <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
